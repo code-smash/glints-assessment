@@ -2,7 +2,7 @@
 
 ## Table Of Contents
 
-[Binary Files]{#Binary-Files}
+[Binary Files](binaryfiles)
 
 ## Repository Structure
 
@@ -24,7 +24,7 @@ SlNo | Folder                  | Description
 
 #### Programming Language and Development Environment
 ---
-The solutions to all 3 problems have been developed using **Java Standard Edition 7 (Java SE 7) 64 bit** on a **Windows 7 64 bit** PC. **Java Development Kit (JDK 1.7)** is used to compile and test the code.
+The solutions to all 3 problems have been developed using **Java Standard Edition 7 (Java SE 7) 64 bit** on a **Windows 7 64 bit** PC. **Java Development Kit 7 (JDK 7)** is used to compile and test the code.
 
 #### Source Files
 ---
@@ -36,7 +36,7 @@ Factorial.java           | Code for solving problem 1, find factorial of a given
 ArraySort.java           | Code for solving problem 2, sort an array in ascending order.
 MatrixRotation.java      | Code for solving problem 3, rotate a matrix. Depends on Matrix.java.
 Matrix.java              | Dependency for MatrixRotation.java.
-                         
+#binaryfiles                         
 #### Binary Files
 ---
 Java binary files are located at **master/Part 01/bin** folder with extension .class. Binary files can be executed using a **JRE (Java Runtime Environment)** in a PC. For more details on running the binaries please refer to section TODO. Details of binaries are summarized in table given below.
@@ -51,7 +51,7 @@ Matrix.class             | Obtained by compiling source file Matrix.java. Depend
 #### Running The Binaries
 ---
 Because, the binaries available in the repository are compiled and tested using a **Windows 7 64 bit** PC, the instructions given in this section assumes an equivalent execution environment. Since, Java binaries are platform independend, it is quite possible to run the binaries in an OS other than **Windows 7 64 bit**. Please follow the instructions given below.
-* **Recommended Java runtime - JRE version 7 or higher**
+* **Recommended Java runtime - JRE version 7 (JRE 7) or higher**
 * **Download the source file into a folder in a PC**
 * **Open console (In Windows it is the Command Prompt) and change directory to the folder where binaries are downloaded**
 * **Use command _java filename_, where _filename_ is the name of the binary (.class) file without the extension. See example below**
@@ -66,6 +66,8 @@ Find factorial of a number         | Factorial.class
 Sort an array in ascending order   | ArraySort.class
 Rotate a matrix                    | MatrixRotation.class
 
-
+#### Compiling The Source Files
+---
+In case the programs needs to be executed using a different version of **JRE** other than the recommended one, the source files must be compiled using a compiler, part of the respective **JDK**. 
 
 
