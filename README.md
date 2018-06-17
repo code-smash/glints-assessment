@@ -2,7 +2,7 @@
 
 ## Table Of Contents
 
-TODO
+[Binary Files]{#Binary-Files}
 
 ## Repository Structure
 
@@ -30,12 +30,20 @@ The solutions to all 3 problems have been developed using **Java Standard Editio
 ---
 Java source files are located at **master/Part 01/src** folder with the extension .java. Details of source files are summarized in the table given below.
 
-File Name                | Dependency                | Description
--------------------------|---------------------------|-----------------
-Factorial.java           | None                      | Code for solving problem 1, find factorial of a given number. 
-ArraySort.java           | None                      | Code for solving problem 2, sort an array in ascending order.
-MatrixRotation.java      | Matrix.java               | Code for solving problem 3, rotate a matrix. Depends on Matrix.java.
+File Name                | Description
+-------------------------|--------------------------
+Factorial.java           | Code for solving problem 1, find factorial of a given number. 
+ArraySort.java           | Code for solving problem 2, sort an array in ascending order.
+MatrixRotation.java      | Code for solving problem 3, rotate a matrix. Depends on Matrix.java.
+Matrix.java              | Dependency for MatrixRotation.java.
                          
 #### Binary Files
 ---
-Java binary files are located at **master/Part 01/bin** folder with extension .class. Binary files can be executed in a PC where an appropriate version of JRE (Java Runtime Environment) is installed. For more details on running the binaries please refer to section TODO
+Java binary files are located at **master/Part 01/bin** folder with extension .class. Binary files can be executed using a **JRE (Java Runtime Environment)** in a PC. For more details on running the binaries please refer to section TODO. Details of binaries are summarized in table given below.
+
+File Name                | Description
+-------------------------|---------------------------
+Factorial.class          | Compiled source file Factorial.java
+ArraySort.class          | Compiled source file ArraySort.java
+MatrixRotation.class     | Compiled source file MatrixRotaion.java. Depends on Matrix.class.
+Matrix.class             | Dependency for MatrixRotation.class
