@@ -58,7 +58,13 @@ Because, the binaries available in the repository are compiled and tested using 
 
     **E.g. java Factorial, will execute the binary Factorial.class**
     
-Follow the instructions given above to run any binary file available in the repository.
+Follow the instructions given above to run any binary file available in the repository. Table given below describes which binary file to run to test a problem given with the assessment questions.
+
+Problem Title                      | Run Binary File
+-----------------------------------|-----------------------------------------
+Find factorial of a number         | Factorial.class
+Sort an array in ascending order   | ArraySort.class
+Rotate a matrix                    | MatrixRotation.class
 
 
 
