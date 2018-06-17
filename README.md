@@ -43,7 +43,23 @@ Java binary files are located at **master/Part 01/bin** folder with extension .c
 
 File Name                | Description
 -------------------------|---------------------------
-Factorial.class          | Compiled source file Factorial.java
-ArraySort.class          | Compiled source file ArraySort.java
-MatrixRotation.class     | Compiled source file MatrixRotaion.java. Depends on Matrix.class.
-Matrix.class             | Dependency for MatrixRotation.class
+Factorial.class          | Obtained by compiling source file Factorial.java
+ArraySort.class          | Obtained by compiling source file ArraySort.java
+MatrixRotation.class     | Obtained by compiling source file MatrixRotaion.java
+Matrix.class             | Obtained by compiling source file Matrix.java. Dependency for MatrixRotation.class
+
+#### Running The Binaries
+---
+Because, the binaries available in the repository are compiled and tested using a **Windows 7 64 bit** PC, the instructions given in this section assumes an equivalent execution environment. Since, Java binaries are platform independend, it is quite possible to run the binaries in an OS other than **Windows 7 64 bit**. Please follow the instructions given below.
+* **Recommended Java runtime - JRE version 7 or higher**
+* **Download the source file into a folder in a PC**
+* **Open console (In Windows it is the Command Prompt) and change directory to the folder where binaries are downloaded**
+* **Use command _java filename_, where _filename_ is the name of the binary (.class) file without the extension. See example below**
+
+    **E.g. java Factorial, will execute the binary Factorial.class**
+    
+Follow the instructions given above to run any binary file available in the repository.
+
+
+
+
