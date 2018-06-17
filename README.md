@@ -1,9 +1,5 @@
 ## Glints Assessment
 
-## Table Of Contents
-
-[Binary Files](binaryfiles)
-
 ## Repository Structure
 
 Repository named glints-assessment is created for keeping source and related files that are part of both the assessments. i.e. Part 1, coding assessment and Part 2, web app.
@@ -36,7 +32,7 @@ Factorial.java           | Code for solving problem 1, find factorial of a given
 ArraySort.java           | Code for solving problem 2, sort an array in ascending order.
 MatrixRotation.java      | Code for solving problem 3, rotate a matrix. Depends on Matrix.java.
 Matrix.java              | Dependency for MatrixRotation.java.
-#binaryfiles                         
+                    
 #### Binary Files
 ---
 Java binary files are located at **master/Part 01/bin** folder with extension .class. Binary files can be executed using a **JRE (Java Runtime Environment)** in a PC. For more details on running the binaries please refer to section TODO. Details of binaries are summarized in table given below.
@@ -68,6 +64,18 @@ Rotate a matrix                    | MatrixRotation.class
 
 #### Compiling The Source Files
 ---
-In case the programs needs to be executed using a different version of **JRE** other than the recommended one, the source files must be compiled using a compiler, part of the respective **JDK**. 
+In case the programs needs to be executed using a different version of **JRE** other than the recommended one, the source files must be compiled using a compiler, part of the respective **JDK**. Please follow the instructions given below.
+* **Ensure Java Development Kit (JDK) is installed in the PC where source file are compiled**
+* **Download the source file into a folder in a PC**
+* **Open console (In Windows it is the Command Prompt) and change directory to the folder where binaries are downloaded**
+* **Use command _javac source_filename_, where _source_filename_ is the name of the source file with extension. See example below**
 
+    **e.g. java Factorial.java, will compile the source file Factorial.java and produce a binary file Factorial.class.**
 
+#### Source Documentation
+---
+The source files are well documented. In addition to useful comments within the source files, a separate javadoc based documentation is also made available in the repository. Source documentation can be downloaded from **master/Part 01/javadoc** folder. Please follow the instructions given below to run and review the documentation.
+* **Download the contents of master/Part 01/javadoc folder to a local folder.**
+* **Run the file named _index.html_.**
+
+Once these 2 steps are completed, the documentation will open in the default browser.
