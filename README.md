@@ -36,3 +36,6 @@ Factorial.java           | None                      | Code for solving problem 
 ArraySort.java           | None                      | Code for solving problem 2, sort an array in ascending order.
 MatrixRotation.java      | Matrix.java               | Code for solving problem 3, rotate a matrix. Depends on Matrix.java.
                          
+#### Binary Files
+---
+Java binary files are located at **master/Part 01/bin** folder with extension .class. Binary files can be executed in a PC where an appropriate version of JRE (Java Runtime Environment) is installed. For more details on running the binaries please refer to section TODO
