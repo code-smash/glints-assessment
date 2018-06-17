@@ -1,2 +1,2 @@
-# glints-assessment
-Glints Assessment Docs
+## glints-assessment
+![Repo Struct](./Common/repostruct.png)
