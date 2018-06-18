@@ -2,7 +2,7 @@
 
 ## Repository Structure
 
-Repository named glints-assessment is created for keeping source and related files that are part of both the assessments. i.e. Part 1, coding assessment and Part 2, web app.
+Repository named **glints-assessment** is created for keeping source and related files that are part of both the assessments. i.e. Part 1, coding assessment and Part 2, web app.
 
 Refer to the image below for an overview of the respository structure
 ![Repo Struct](./Common/repostruct.png)
